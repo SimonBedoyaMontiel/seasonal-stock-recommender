@@ -12,6 +12,12 @@ Sistema que predice cuánto stock se va a necesitar por categoría de producto a
 
 Sin instalar nada: elegí cualquier mes y mirá la predicción de stock por categoría, el pronóstico de demanda, la validación histórica del modelo y el monitoreo de *data drift*.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Recorrido por la demo: recomendación de stock, validación histórica y alerta de data drift" width="100%">
+</p>
+
+<p align="center"><sub>Recomendación de stock por mes · validación histórica del modelo · alerta de <em>data drift</em> al detectar un cambio en los datos</sub></p>
+
 ## 📖 ¿Qué es esto?
 
 El objetivo original del proyecto era un recomendador de productos personalizado, por cliente. El análisis exploratorio mostró que ese dataset **no tiene señal individual explotable** — confirmado comparando tres modelos predictivos distintos bajo el mismo rigor metodológico. En vez de forzar una solución débil, el equipo redirigió el esfuerzo hacia el problema donde los datos sí mostraban un patrón fuerte: la **predicción de stock por categoría a lo largo de todo el año**, incluyendo — pero sin limitarse a — los meses de alta demanda.
