@@ -18,6 +18,15 @@ Sin instalar nada: elegí cualquier mes y mirá la predicción de stock por cate
 
 <p align="center"><sub>Recomendación de stock por mes · validación histórica del modelo · alerta de <em>data drift</em> al detectar un cambio en los datos</sub></p>
 
+## 🙋 Mi contribución
+
+Este repositorio es un fork del proyecto final que desarrollamos en equipo de seis personas en Henry ([repositorio original](https://github.com/SaraHenaoB/Final-Proyect)). Mi rol fue de Analista de Datos, y estas fueron mis partes:
+
+- **EDA primario y ETL:** definí 8 reglas de limpieza reproducibles sobre 4 tablas y más de 138.000 órdenes, y detecté una columna que filtraba información del futuro, lo que habría inflado artificialmente el desempeño del modelo.
+- **Demo en Streamlit:** desarrollé y desplegué en la nube la aplicación que ves arriba, con la recomendación de stock, la validación histórica del modelo y el monitoreo de *data drift* con 4 métricas (PSI, KS, Jensen-Shannon y Chi²).
+
+El modelo de pronóstico fue trabajo conjunto del equipo; los créditos completos están en la sección [Equipo](#-equipo).
+
 ## 📖 ¿Qué es esto?
 
 El objetivo original del proyecto era un recomendador de productos personalizado, por cliente. El análisis exploratorio mostró que ese dataset **no tiene señal individual explotable** — confirmado comparando tres modelos predictivos distintos bajo el mismo rigor metodológico. En vez de forzar una solución débil, el equipo redirigió el esfuerzo hacia el problema donde los datos sí mostraban un patrón fuerte: la **predicción de stock por categoría a lo largo de todo el año**, incluyendo — pero sin limitarse a — los meses de alta demanda.
@@ -129,7 +138,7 @@ Numerados y secuenciales — el detalle narrativo de cada uno está en el [infor
 | Christian Tamayo | Data Scientist | [LinkedIn](https://www.linkedin.com/in/cantamayo21/) |
 | Deiberlyn Nin | Data Scientist | [LinkedIn](https://www.linkedin.com/in/deiberlyn-nin-b893b1432/) |
 | Sarah Henao | Scrum Master | [LinkedIn](https://www.linkedin.com/in/sarahenao/) |
-| Simón Bedoya | Data Scientist | [LinkedIn](https://www.linkedin.com/in/sim%C3%B3n-bedoya-05bb57398/) |
+| Simón Bedoya | Data Scientist | [LinkedIn](https://www.linkedin.com/in/simon-bedoya-montiel/) |
 | Verónica Iacono | Data Scientist | [LinkedIn](https://www.linkedin.com/in/veronica-iacono-69b0671a3/) |
 
 ## 🔭 Próximas mejoras
